@@ -1,4 +1,6 @@
-<?php namespace App\Controllers;
+<?php
+
+namespace App\Controllers;
 
 class Home extends BaseController
 {
@@ -6,7 +8,18 @@ class Home extends BaseController
 	{
 		return view('welcome_message');
 	}
-
+	public function product()
+	{
+		return view('welcome_message');
+	}
+	public function detail()
+	{
+		return view('welcome_message');
+	}
+	public function contact()
+	{
+		return view('welcome_message');
+	}
 	//--------------------------------------------------------------------
 
 }
